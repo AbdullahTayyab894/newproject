@@ -34,16 +34,16 @@ export const Data = [
     },
     {
         id: 4,
-        img: r4,
-        image: v4,
-        heading: "Technology solutions",
-        description: "Our farmers’ call center offers modern technology solutions to its users.",
-    },
-    {
-        id: 5,
         img: r5,
         image: v5,
         heading: "Customer Support",
         description: "We have a customer support team in place to help users overcome challenges and succeed in their operations.",
+    },
+    {
+        id: 5,
+        img: r4,
+        image: v4,
+        heading: "Technology solutions",
+        description: "Our farmers’ call center offers modern technology solutions to its users.",
     },
 ]

@@ -6,7 +6,7 @@ import description2 from '../../images/description2.png'
 const Description = () => {
     return (
         <div container className='parent-div' >
-            <div item md={6} xs={12} className='parent-div-first-child'>
+            <div className='parent-div-first-child'>
                 <h1 className='description'>An All-In-One Solution to All Your Agricultural Problems</h1>
                 <p className='peragraph'>Stay on top of your agricultural business and access a one stop shop for all things agriculture.</p>
                 <div className='parent-div-first-child-subchild'>
@@ -14,7 +14,7 @@ const Description = () => {
                     <button className='description-btn2'>How it works?</button>
                 </div>
             </div>
-            <div item md={6} xs={12} className='parent-div-second-child'>
+            <div className='parent-div-second-child'>
                 <img className='first-img' src={description2} />
                 <img className='second-img' src={description1} />
             </div>

@@ -11,12 +11,8 @@ const Ads = () => {
         <div className='parent-ads'>
             <div className='parent-ads-child1'>
                 <div>
-                    <div className='img1'>
-                        <img src={img1} />
-                    </div>
-                    <div className='img2'>
-                        <img src={img2} />
-                    </div>
+                    <img src={img1} className='img1' />
+                    <img src={img2} className='img2' />
                 </div>
                 <div className='parent-ads-child1-subchild2'>
                     <h1>Partner to improve agriculture in Nigeria.</h1>
@@ -31,12 +27,8 @@ const Ads = () => {
                     <button>Get Started</button>
                 </div>
                 <div className='parent-ads-child2-subchild2'>
-                    <div className='img3'>
-                        <img src={img3} />
-                    </div>
-                    <div className='img4'>
-                        <img src={img4} />
-                    </div>
+                    <img src={img3} className='img3' />
+                    <img src={img4} className='img4' />
                 </div>
             </div>
         </div>

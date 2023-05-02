@@ -33,7 +33,7 @@ const Solution = () => {
                     Data.map((item, index) => {
                         return (
                             <div style={{
-                                maxWidth: "40%",
+                                maxWidth: "45%",
                                 minWidth:"375px",
                                 height: "341px",
                                 textAlign: "left",

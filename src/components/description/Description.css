@@ -6,7 +6,7 @@
 .parent-div {
     background: #021F0B;
     width: 100%;
-    height: 658px;
+    min-height: 658px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,9 +33,8 @@
 }
 
 .parent-div-first-child {
-    max-width: 600px;
-    min-width: 300px;
-    padding-left: 100px;
+    max-width: 50%;
+    padding-left: 50px;
 }
 
 .parent-div-first-child-subchild {
@@ -64,8 +63,8 @@
 
 .parent-div-second-child {
     position: relative;
-    padding-left: 100px;
-    max-width: 40%;
+    /* padding-left: 100px; */
+    max-width: 50%;
 }
 
 .first-img {
@@ -83,37 +82,47 @@
     top: -10px;
 }
 
-@media screen and (max-width: 1100px) {
-    .parent-div {
-        padding-top: 20px;
-        height: auto;
-        flex-direction: column;
-        align-items: center;
+@media screen and (max-width: 1460px) {
+    .first-img {
+        position: static;
     }
 
-    .parent-div-first-child {
-        padding: 50px 20px 0px 20px;
-        text-align: center;
-    }
-
-    .parent-div-second-child {
-        position: relative;
-        padding: 50px 20px 0px 20px;
-        text-align: center;
-    }
-
-    .first-img,
     .second-img {
-        position: relative;
-        width: 80%;
+        position: static;
+        max-width: 370px;
         height: auto;
-        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .parent-div {
+        flex-direction: column;
     }
 
-    .description-btn1,
-    .description-btn2 {
-        margin-top: 50px;
-        text-align: center;
-        justify-content: center;
+    .parent-div-second-child{
+        width: 100%;
+    }
+    .parent-div-first-child {
+        max-width: 100%;
+        padding: 20px;
+    }
+    .first-img {
+        display: flex;
+        margin: auto;
+    }
+
+    .second-img {
+        display: flex;
+        width: 370px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:510px){
+    .first-img{
+        width: 270px;
+    }
+    .second-img{
+        width: 270px;
     }
 }
