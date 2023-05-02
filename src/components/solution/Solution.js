@@ -16,30 +16,35 @@ const Solution = () => {
                 flexDirection: "row",
                 flexWrap: "wrap",
                 justifyContent: "space-around",
-                padding: "20px",
+                padding: "20px 40px 20px 40px",
             }}>
                 {
                     Data.map((item, index) => {
                         return (
-                            <div>
+                            <div style={{
+                                padding:"20px"
+                            }}>
                                 {
                                     item.id == 1 ? (
                                         <div style={{
-                                            width: "375px",
-                                            height: "341px",
+                                            maxWidth: "350px",
+                                            minWidth:"300px",
+                                            height: "350px",
                                             border: "1px solid green",
                                             borderRadius: "10px",
-                                            marginTop: "20px",
+                                            marginBottom: "10px",
                                             textAlign: "center",
                                             lineHeight: "3em",
-                                            padding: "40px 30px 0px 30px",
+                                            padding: "40px 20px 0px 20px",
                                             background: "rgba(0, 153, 51, 0.1)",
                                         }}>
                                             <img src={item.img} />
                                             <h1 style={{
                                                 color: "green"
                                             }}>{item.heading}</h1>
-                                            <p>{item.description}</p>
+                                            <p style={{
+                                                width:"300px",
+                                            }}>{item.description}</p>
                                             <button style={
                                                 {
                                                     width: "215px",
@@ -53,20 +58,23 @@ const Solution = () => {
                                         </div>
                                     ) : (
                                         <div style={{
-                                            width: "375px",
-                                            height: "341px",
+                                            maxWidth: "350px",
+                                            minWidth: "300px",
+                                            height: "350px",
                                             border: "1px solid green",
                                             borderRadius: "10px",
-                                            marginTop: "20px",
+                                            marginBottom: "10px",
                                             textAlign: "center",
                                             lineHeight: "3em",
-                                            padding: "40px 30px 0px 30px",
+                                            padding: "40px 20px 0px 20px",
                                         }}>
                                             <img src={item.img} />
                                             <h1 style={{
                                                 color: "green"
                                             }}>{item.heading}</h1>
-                                            <p>{item.description}</p>
+                                            <p style={{
+                                                width:"300px"
+                                            }}>{item.description}</p>
                                             <button style={
                                                 {
                                                     width: "215px",

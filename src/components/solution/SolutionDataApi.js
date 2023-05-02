@@ -30,16 +30,17 @@ export const Data = [
         heading: "Extension services",
         description: "We provides personalized support to farmers",
     },
+   
+    {
+        id:6,
+        img: consultancy,
+        heading: "Consultancy",
+        description: "Our support is tailored to match your needs & goals.",
+    },
     {
         id:5,
         img: aggregation,
         heading: "Aggregation services",
         description: "We aggregate produce directly from farmers.",
-    },
-    {
-        id:6,
-        img: consultancy,
-        heading: "Consultancy",
-        description: "Our support is tailored to match your needs and goals.",
     },
 ]

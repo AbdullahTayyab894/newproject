@@ -23,7 +23,7 @@ const Explore = () => {
             }} />
             <button style={{
                 display: "flex",
-                width: "437px",
+                maxWidth: "437px",
                 height: "70px",
                 margin: "auto",
                 background: "#00541C",
@@ -31,14 +31,14 @@ const Explore = () => {
                 borderRadius: "10px",
                 alignItems: "center",
                 justifyContent: "center",
-                marginTop: "20px",
+                marginTop: "40px",
                 color: "#FFFFFF",
                 fontFamily: 'Open Sans',
                 fontStyle: "normal",
                 fontWeight: "700",
                 fontSize: "20px",
                 lineHeight: "27px",
-
+                padding: "0px 50px 0px 50px"
             }}>Explore more</button>
         </div>
     )

@@ -9,7 +9,7 @@ export default function Navbar() {
     const [isSmallScreen, setIsSmallScreen] = useState(false);
 
     useEffect(() => {
-        const mediaQuery = window.matchMedia("(max-width: 1000px)");
+        const mediaQuery = window.matchMedia("(max-width: 820px)");
         mediaQuery.addListener(handleMediaQueryChange);
         handleMediaQueryChange(mediaQuery);
 

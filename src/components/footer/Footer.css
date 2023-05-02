@@ -1,14 +1,29 @@
-.child {
-    width: "270px"
+.footer-parent{
+background-color:#00541C ;
+margin-top: 40px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 50px 40px 40px 50px;
 }
 
+.child{
+    margin-top: 20px;
+    padding-right: q0px;
+}
 .child>h1 {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: 800;
+    font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
+    text-align: left;
+}
+
+.child>h2:hover{
+    color: green;
+    cursor: pointer;
 }
 
 .child>h2 {
@@ -17,8 +32,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 180.18%;
-    /* or 29px */
-
-
     color: #FFFFFF;
+    text-align: left;
 }

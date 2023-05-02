@@ -10,7 +10,7 @@ const Header = () => {
         <li>Metrics</li>
         <li>Community</li>
         <li>Pricing</li>
-        <li>Call Centre</li>
+        <li>Call-Centre</li>
       </div>
       <div className='header-search'>
         <form>

@@ -4,7 +4,7 @@ const NewsLetter = () => {
     return (
         <div style={{
             background: "#00541C",
-            padding:"20px 0px 20px 0px",
+            padding:"20px 20px 20px 20px",
             marginTop:"40px"
         }}>
             <h1 style={{
@@ -60,6 +60,7 @@ const NewsLetter = () => {
                 fontSize: "20px",
                 lineHeight: "30px",
                 color: "#00541C",
+                border:"none"
             }}>Learn More</button>
         </div>
     )
