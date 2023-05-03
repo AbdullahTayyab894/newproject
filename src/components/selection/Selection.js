@@ -32,7 +32,7 @@ const Solution = () => {
                             return (
                                 <div style={{
                                     width: "500px",
-                                    minWidth: "360px",
+                                    // minWidth: "360px",
                                     margin: "auto",
                                     textAlign: "left",
                                     lineHeight: "3em",

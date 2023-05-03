@@ -26,7 +26,7 @@
 .offer-parent-child1 {
     display: "flex";
     position: relative;
-    width: 300px;
+    max-width: 300px;
     margin: auto;
     margin-top: 30px;
 }
@@ -196,10 +196,14 @@
     background: #FFFFFF;
 }
 
-@media (min-width:370px) and (max-width:720px) {
+@media (max-width:720px) {
     .offer-parent-child1>:nth-child(3) {
         position: static;
         margin: auto;
-        padding-top: 30px;
+        /* padding-top: 30px; */
+    }
+    .offer-parent-child1>:nth-child(2){
+        position: static;
+        margin: auto;
     }
 }
