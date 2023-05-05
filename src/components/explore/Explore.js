@@ -1,45 +1,24 @@
 import React from 'react'
-import explore from "../../images/explore.png"
+import explore1 from "../../images/explore 1.png"
+import explore2 from "../../images/explore 2.png"
+import explore3 from "../../images/explore 3.png"
+import explore4 from "../../images/explore 4.png"
+import './Explore.css'
 
 const Explore = () => {
     return (
-        <div>
-            <h1 style={{
-                fontFamily: 'Roboto',
-                fontStyle: "normal",
-                fontWeight: "500",
-                fontSize: "48px",
-                lineHeight: "56px",
-                color: "#00541C",
-                textAlign: "center",
-                paddingTop: "40px"
-            }}>We keep you updated with the latest report.</h1>
-            <img src={explore} style={{
-                display: "flex",
-                width: "80%",
-                height: "100vh",
-                margin: "auto",
-                marginTop: "40px"
-            }} />
-            <button style={{
-                display: "flex",
-                maxWidth: "437px",
-                height: "70px",
-                margin: "auto",
-                background: "#00541C",
-                boxShadow: "0px 4px 4px rgba(0, 109, 36, 0.25)",
-                borderRadius: "10px",
-                alignItems: "center",
-                justifyContent: "center",
-                marginTop: "40px",
-                color: "#FFFFFF",
-                fontFamily: 'Open Sans',
-                fontStyle: "normal",
-                fontWeight: "700",
-                fontSize: "20px",
-                lineHeight: "27px",
-                padding: "0px 50px 0px 50px"
-            }}>Explore more</button>
+        <div className='explore-parent'>
+            <h1>We keep you updated with the latest report.</h1>
+            <div className='explore-first-div'>
+                <img src={explore1} />
+                <img src={explore2} />
+
+            </div>
+            <div className='explore-second-div'>
+                <img src={explore3} />
+                <img src={explore4} />
+            </div>
+            <button>Explore more</button>
         </div>
     )
 }

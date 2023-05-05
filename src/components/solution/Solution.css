@@ -1,3 +1,18 @@
+.solution-heading {
+    font-size: 40px;
+    font-weight: 700px;
+    color: green;
+    padding: 30px 30px 0px 30px;
+}
+
+.solution-paragraph {
+    font-size: 24px;
+    font-weight: 350px;
+    padding: 10px 30px 0px 30px;
+    line-height: 1.5em;
+    text-align: left;
+}
+
 .solution-parent-div {
     display: flex;
     flex-direction: row;
@@ -7,37 +22,61 @@
 
 .solution-first-dev {
     width: 280px;
-    height: 350px;
     border: 1px solid green;
     border-radius: 10px;
     margin-bottom: 10px;
-    /* margin-left: 20px; */
     text-align: center;
     line-height: 3em;
-    padding: 40px 20px 0px 20px;
+    padding: 30px 20px 30px 20px;
     background: rgba(0, 153, 51, 0.1);
+}
+
+.solution-first-dev>button {
+    width: 215px;
+    height: 60px;
+    background: #00541C;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #FFFFFF;
 }
 
 .solution-all-div {
     width: 280px;
-    height: 350px;
-    /* margin-left: 20px; */
     border: 1px solid green;
     border-radius: 10px;
     margin-bottom: 10px;
     text-align: center;
     line-height: 3em;
-    padding: 40px 20px 0px 20px;
+    padding: 30px 20px 30px 20px;
+}
+
+.solution-all-div>button {
+    width: 215px;
+    height: 60px;
+    background: #00541C;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #FFFFFF;
 }
 
 @media (max-width:375px) {
+    .solution-heading {
+        font-size: 25px;
+        font-weight: 400px;
+    }
+
+    .solution-paragraph {
+        font-size: 18px;
+        font-weight: 250px;
+    }
+
     .solution-first-dev {
         width: 220px;
-        padding: 40px 10px 0px 10px;
+        padding: 30px 20px 20px 20px;
     }
 
     .solution-all-div {
         width: 220px;
-        padding: 40px 10px 0px 10px;
+        padding: 30px 20px 20px 20px;
     }
 }

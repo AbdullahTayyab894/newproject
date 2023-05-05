@@ -4,7 +4,7 @@ const NewsLetter = () => {
     return (
         <div style={{
             background: "#00541C",
-            padding:"20px 20px 20px 20px",
+            padding:"20px 40px 20px 40px",
             marginTop:"40px"
         }}>
             <h1 style={{
@@ -31,7 +31,7 @@ const NewsLetter = () => {
             }}>
                 <input placeholder='Enter your email address' style={{
                     width: "883px",
-                    height: "60px",
+                    height: "70px",
                     margin: "auto",
                     background: "#FFFFFF",
                     boxShadow: "0px 4px 4px rgba(255, 255, 255, 0.1)",
@@ -45,7 +45,7 @@ const NewsLetter = () => {
                 }} />
             </form>
             <button style={{
-                width: "212px",
+                width: "250px",
                 height: "70px",
                 display: "flex",
                 alignItems: "center",

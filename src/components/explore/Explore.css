@@ -1,0 +1,67 @@
+.explore-parent>h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #00541C;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.explore-parent>button {
+    display: flex;
+    max-width: 437px;
+    height: 70px;
+    margin: auto;
+    background: #00541C;
+    box-shadow: 0px 4px 4px rgba(0, 109, 36, 0.25);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 0px 50px 0px 50px;
+}
+
+.explore-parent>div>img:hover {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.explore-first-div>img,
+.explore-second-div>img {
+    max-width: 600px;
+    min-width: 280px;
+}
+
+.explore-first-div,
+.explore-second-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 20px 30px 20px;
+}
+
+@media (max-width:460px) {
+    .explore-parent>h1 {
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+}
+
+@media (max-width:375px) {
+    .explore-parent>h1 {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+}

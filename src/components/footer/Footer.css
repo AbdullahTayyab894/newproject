@@ -2,14 +2,14 @@
 background-color:#00541C ;
 margin-top: 40px;
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 flex-wrap: wrap;
-padding: 50px 40px 40px 50px;
+padding: 50px 0px 40px 30px;
 }
 
 .child{
     margin-top: 20px;
-    padding-right: q0px;
+    width: 200px;
 }
 .child>h1 {
     font-family: 'Poppins';

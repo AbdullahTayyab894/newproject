@@ -1,5 +1,5 @@
 .Header {
-    position: fixed;
+    position: relative;
     top: 0;
     height: 84px;
     width: 100%;
@@ -13,7 +13,7 @@
 .Logo {
     grid-area: logo;
     height: 84px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .Nav {
@@ -67,10 +67,9 @@
 .Burger {
     display: none;
     grid-area: burger;
-    margin: 0 50px 0 0;
+    margin: 0 30px 0 0;
     padding: 0;
     justify-self: end;
-    font-size: 40px;
     border: none;
     background: none;
     outline: none;
@@ -84,6 +83,8 @@
 @media (max-width: 820px) {
     .Header {
         grid-template-areas: "logo burger" "nav nav";
+        /* z-index: 100;
+        position: fixed; */
     }
 
     .Nav {

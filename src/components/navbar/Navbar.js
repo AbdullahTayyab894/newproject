@@ -52,7 +52,9 @@ export default function Navbar() {
                 </nav>
             </CSSTransition>
             <button onClick={toggleNav} className="Burger">
-                <MenuIcon />
+                <MenuIcon style={{
+                    fontSize:"40px"
+                }}/>
             </button>
         </header>
     );

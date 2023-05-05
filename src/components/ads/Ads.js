@@ -10,7 +10,7 @@ const Ads = () => {
     return (
         <div className='parent-ads'>
             <div className='parent-ads-child1'>
-                <div>
+                <div className='parent-ads-child1-subchild1'>
                     <img src={img1} className='img1' />
                     <img src={img2} className='img2' />
                 </div>

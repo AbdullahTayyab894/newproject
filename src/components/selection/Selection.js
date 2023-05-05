@@ -1,42 +1,18 @@
 import React from 'react'
 import { Data } from './SelectionDataApi'
+import './Selection.css'
 
 const Solution = () => {
     return (
         <>
-            <div style={{
-                background: "rgba(0, 66, 22, 0.15)",
-                padding: "50px 15px 15px 15px "
-            }}>
-                <h1 style={{
-                    color: "#00541C",
-                    fontFamily: 'Roboto',
-                    fontStyle: "normal",
-                    fontWeight: "500",
-
-                }}>Why You Should Choose Us</h1>
-                <p style={{
-                    margin: "20px 0px 30px 0px",
-                    fontFamily: 'Poppins',
-                    fontStyle: "normal",
-                    fontWeight: "400",
-
-                }}>Agric360 aims to promote agricultural growth, food security, economic development, and poverty reduction.</p>
-                <div style={{
-                    display: "flex",
-                    flexWrap: "wrap",
-                    justifyContent: "space-between",
-                }}>
+            <div className='selection-parent'>
+                <h1>Why You Should Choose Us</h1>
+                <p>Agric360 aims to promote agricultural growth, food security, economic development, and poverty reduction.</p>
+                <div className='selection-child'>
                     {
                         Data.map((item, index) => {
                             return (
-                                <div style={{
-                                    width: "500px",
-                                    // minWidth: "360px",
-                                    margin: "auto",
-                                    textAlign: "left",
-                                    lineHeight: "3em",
-                                }}>
+                                <div className='selection-child-internal-div'>
                                     <div style={{
                                         position: "relative",
                                         marginBottom: "80px",
@@ -55,21 +31,8 @@ const Solution = () => {
                                         }} />
                                     </div>
 
-                                    <h1 style={{
-                                        color: "#00541C",
-                                        fontFamily: 'Open Sans',
-                                        fontStyle: "normal",
-                                        fontWeight: "700",
-                                        fontSize: "24px",
-
-                                    }}>{item.heading}</h1>
-                                    <p style={{
-                                        fontFamily: 'Open Sans',
-                                        fontStyle: "normal",
-                                        fontWeight: "700",
-                                        fontSize: "16px",
-                                        color: "#3A3A3A",
-                                    }}>{item.description}</p>
+                                    <h1>{item.heading}</h1>
+                                    <p>{item.description}</p>
                                 </div>
                             )
                         })
