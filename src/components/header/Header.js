@@ -11,6 +11,7 @@ const Header = () => {
         <li>Community</li>
         <li>Pricing</li>
         <li>Call-Centre</li>
+        <li>I-Consult</li>
       </div>
       <div className='header-search'>
         <form>

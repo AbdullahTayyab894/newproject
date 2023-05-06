@@ -34,18 +34,16 @@
     padding: 10px;
 }
 
-.explore-first-div>img,
-.explore-second-div>img {
-    max-width: 600px;
-    min-width: 280px;
+.explore-div {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
 }
 
-.explore-first-div,
-.explore-second-div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px 20px 30px 20px;
+.explore-div>img {
+    max-width: 90%;
+    min-width: 270px;
+    margin: 10px;
 }
 
 @media (max-width:460px) {

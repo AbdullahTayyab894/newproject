@@ -26,6 +26,7 @@ const Footer = () => {
                 <h2>Matrices</h2>
                 <h2>Tickets / Support</h2>
                 <h2>Blog/News</h2>
+                <h2>I-Source</h2>
             </div>
             <div className='child' >
                 <h1>Contact</h1>
