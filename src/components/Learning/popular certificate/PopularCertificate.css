@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.popular-heading {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #00541C;
+    line-height: 3em;
+    padding-left: 80px;
+}
+
+.popular-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.popular-child {
+    width: 500px;
+    margin-top: 20px;
+    background: rgba(178, 178, 178, 0.13);
+    box-shadow: 0px 2px 2px rgba(0, 84, 28, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.popular-img {
+    width: 95%;
+    display: flex;
+    margin: auto;
+}
+
+.popular-name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00541C;
+    padding-top: 20px;
+}
+
+.popular-description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00541C;
+}
+
+.popular-instructor {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #009933;
+}
+
+.popular-rating {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: rgba(58, 58, 58, 0.9);
+}
+
+.popular-duration-difficulty-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-duration {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00541C;
+}
+
+.popular-difficulty {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00541C;
+}
+
+.popular-price {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00541C;
+}
+
+@media (max-width:600px) {
+    .popular-child {
+        width: 300px;
+        padding: 20px;
+    }
+}
+@media (max-width:400px) {
+    .popular-child {
+        width: 250px;
+        padding: 20px;
+    }
+    .popular-heading{
+        padding-left: 20px;
+    }
+}

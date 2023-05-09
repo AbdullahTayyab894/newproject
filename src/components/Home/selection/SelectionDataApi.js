@@ -1,14 +1,14 @@
-import r1 from '../../images/selection/r1.png'
-import r2 from '../../images/selection/r2.png'
-import r3 from '../../images/selection/r3.png'
-import r4 from '../../images/selection/r4.png'
-import r5 from '../../images/selection/r5.png'
+import r1 from '../../../images/selection/r1.png'
+import r2 from '../../../images/selection/r2.png'
+import r3 from '../../../images/selection/r3.png'
+import r4 from '../../../images/selection/r4.png'
+import r5 from '../../../images/selection/r5.png'
 
-import v1 from '../../images/selection/v1.png'
-import v2 from '../../images/selection/v2.png'
-import v3 from '../../images/selection/v3.png'
-import v4 from '../../images/selection/v4.png'
-import v5 from '../../images/selection/v5.png'
+import v1 from '../../../images/selection/v1.png'
+import v2 from '../../../images/selection/v2.png'
+import v3 from '../../../images/selection/v3.png'
+import v4 from '../../../images/selection/v4.png'
+import v5 from '../../../images/selection/v5.png'
 
 export const Data = [
     {

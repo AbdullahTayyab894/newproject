@@ -2,7 +2,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import { CSSTransition } from "react-transition-group";
-import logo from '../../images/logo.png'
+import logo from '../../../images/logo.png'
 
 export default function Navbar() {
     const [isNavVisible, setNavVisibility] = useState(false);

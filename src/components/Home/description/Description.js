@@ -1,7 +1,7 @@
 import React from 'react'
 import './Description.css'
-import description1 from '../../images/description1.png'
-import description2 from '../../images/description2.png'
+import description1 from '../../../images/description1.png'
+import description2 from '../../../images/description2.png'
 
 const Description = () => {
     return (

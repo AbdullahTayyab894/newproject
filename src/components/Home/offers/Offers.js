@@ -1,9 +1,8 @@
 import React from 'react'
-import arrow from '../../images/arrow.png'
 import './Offers.css'
-import tick1 from '../../images/tick.png'
-import tick2 from '../../images/tick2.png'
-import premium from '../../images/premium.png'
+import arrow from '../../../images/arrow.png'
+import tick1 from '../../../images/tick.png'
+import tick2 from '../../../images/tick2.png'
 
 const Offers = () => {
     return (

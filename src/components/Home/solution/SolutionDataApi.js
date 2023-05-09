@@ -1,9 +1,9 @@
-import market from '../../images/solution/market.png'
-import finance from '../../images/solution/finance.png'
-import training from '../../images/solution/training.png'
-import extension from '../../images/solution/extension.png'
-import aggregation from '../../images/solution/aggregation.png'
-import consultancy from '../../images/solution/consultancy.png'
+import market from '../../../images/solution/market.png'
+import finance from '../../../images/solution/finance.png'
+import training from '../../../images/solution/training.png'
+import extension from '../../../images/solution/extension.png'
+import aggregation from '../../../images/solution/aggregation.png'
+import consultancy from '../../../images/solution/consultancy.png'
 
 export const Data = [
     {

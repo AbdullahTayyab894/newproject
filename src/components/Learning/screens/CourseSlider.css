@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #00541C;
+    padding-left: 30px;
+    line-height: 3em;
+    padding-top: 20px;
+}
+
+.trending-parent {
+    width: 98% !important;
+    min-height: 323px;
+    border: 1px solid #009933;
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.trending-parent>div{
+    width: 45%;
+}
+.trending-parent:first-child {
+    width: 323px;
+}
+
+.trending-detail{
+    margin-top: 10px;
+}
+.trending-name {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #00541C;
+}
+
+.trending-description {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A3A3A;
+}
+
+.trending-instructor {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(58, 58, 58, 0.6);
+}
+
+.trending-duration {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.trending-rating-difficulty {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending-rating {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.trending-difficulty {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00541C;
+}
+
+.trending-price {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #00541C;
+}
+
+.trending-link {
+    text-decoration: none !important;
+}
+
+@media (max-width:950px) {
+    .trending-parent>div{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .trending-parent {
+        flex-direction: column;
+    }
+    .trending-detail{
+        width: 400px;
+        padding: 10px;
+    }
+}
+
+@media (max-width:500px) {
+    .trending-video {
+        width: 300px;
+    }
+
+    .trending-detail {
+        width: 250px;
+        padding: 10px;
+    }
+}
+@media (max-width:380px) {
+    .trending-video {
+        width: 250px;
+    }
+
+    .trending-detail {
+        width: 250px
+    }
+    .heading{
+    padding-left: 20px;
+    }
+}
