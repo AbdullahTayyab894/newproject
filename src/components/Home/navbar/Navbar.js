@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import { CSSTransition } from "react-transition-group";
 import logo from '../../../images/logo.png'
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     const [isNavVisible, setNavVisibility] = useState(false);
@@ -53,8 +54,8 @@ export default function Navbar() {
             </CSSTransition>
             <button onClick={toggleNav} className="Burger">
                 <MenuIcon style={{
-                    fontSize:"40px"
-                }}/>
+                    fontSize: "40px"
+                }} />
             </button>
         </header>
     );

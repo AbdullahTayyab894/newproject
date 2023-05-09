@@ -1,9 +1,10 @@
 import React from 'react'
+import CategoryButton from '../category button/CategoryButton'
 
 const CourseDetail = () => {
   return (
     <div>
-        <h1>hello</h1>
+        <CategoryButton />
     </div>
   )
 }

@@ -1,0 +1,50 @@
+.category-parent {
+    width: 100%;
+}
+
+.category-parent>div {
+    display: flex;
+    padding: 0px 20px;
+    width: 660px;
+    margin: auto;
+}
+
+.category-parent>div>button {
+    width: 200px;
+    padding: 5px 20px;
+    margin-right: 0.5px;
+}
+
+.category-btn1 {
+    background: #00541C;
+    border: 1px solid #00541C;
+    border-radius: 5px 0px 0px 5px;
+    color: #FFFFFF;
+}
+
+.category-btn2 {
+    background: #FFFFFF;
+    border: 1px solid #00541C;
+    color: #00541C;
+}
+
+@media (max-width:670px) {
+    .category-parent>div {
+        flex-direction: column;
+    }
+
+    .category-parent>div{
+        width: 300px;
+    }
+    .category-parent>div>button {
+        width: 300px;
+        margin: auto;
+    }
+}
+
+@media (max-width:450px) {
+    .category-parent>div>button {
+        width: 250px;
+        margin: auto;
+    }
+}
