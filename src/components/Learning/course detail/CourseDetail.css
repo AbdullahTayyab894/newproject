@@ -1,0 +1,237 @@
+.detail-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.detail-parent>div {
+    width: 400px;
+}
+
+.detail-child2>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* learning */
+
+.detail-learning {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.detail-learning-child {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.learning-subchild {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.learning-subchild>img {
+    width: 21.33px;
+    height: 16px;
+    margin-right: 20px;
+}
+
+.learning-enroll {
+    width: 444px;
+    height: 60px;
+    background: #00541C;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+/* requirement and description */
+
+.learning-req {
+    margin-top: 20px;
+}
+
+.learning-req>h1,
+.learning-des>h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.learning-req>p,
+.learning-des>p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #3A3A3A;
+}
+
+/* pricing and rating */
+
+.price-parent {
+    padding-left: 40px;
+}
+
+.price-child {
+    display: flex;
+    margin-left: 20px;
+    width: 300px;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.price-child>h1 {
+    border-left: 1px solid gray;
+    padding-left: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.price-child>h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 28px;
+    color: #000000;
+}
+
+/* instructor? */
+
+.instructor-parent {
+    padding: 0px 40px;
+    margin-top: 50px;
+}
+
+.instructor-parent>h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.instructor-parent>h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.instructor-child1 {
+    padding-top: 20px;
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.instructor-child1>h6 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.instructor-child2 {
+    padding-top: 20px;
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.instructor-child2>div>img {
+    width: 98px;
+    height: 99px;
+}
+
+.instructor-child2>div>p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.instructor-parent>p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 700px;
+    color: #000000;
+}
+
+.instructor-btn {
+    width: 210px;
+    height: 60px;
+    background: #00541C;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+@media (max-width:400px) {
+
+    .detail-btns {
+        margin-top: 60px;
+    }
+
+    .detail-parent>div {
+        width: 280px;
+    }
+
+    /* .detail-child2{
+        width: 280px;
+        margin: auto;
+        justify-content: space-around;
+    } */
+    .learning-enroll {
+        width: 280px;
+    }
+
+    .price-parent {
+        padding-left: 10px;
+    }
+
+    .price-child {
+        width: 280px;
+        margin-left: 0px;
+        justify-content: space-around;
+    }
+
+    .price-child>h1 {
+        padding-left: 10px;
+    }
+
+}
