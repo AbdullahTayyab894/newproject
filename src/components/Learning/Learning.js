@@ -9,6 +9,7 @@ import Navbar from './navbar/Navbar'
 import MainSection from './main/MainSection'
 import CategoryButton from './category button/CategoryButton'
 import FormManagment from './form managment/FormManagment'
+import VideoPlayList from './playlists/VideoPlayList'
 
 const Learning = () => {
     return (
@@ -27,6 +28,7 @@ const Learning = () => {
                         </>
                     } />
                     <Route path="/CourseDetail/:matchid" element={<CourseDetail />} />
+                    <Route path="/playlist/:playlistCategory" element={<VideoPlayList />} />
                     <Route path='/FormManagment' element={<FormManagment />} />
                 </Routes>
             </BrowserRouter>

@@ -3,7 +3,9 @@ import './CategoryButton.css'
 
 const CategoryButton = () => {
   return (
-    <div className='category-parent'>
+    <div className='category-parent' style={{
+      marginTop:"60px"
+    }}>
       <div>
         <button className="category-btn1">All Course</button>
         <button className="category-btn2">Course in Progress</button>

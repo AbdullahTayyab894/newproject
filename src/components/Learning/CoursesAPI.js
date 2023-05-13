@@ -1,4 +1,4 @@
-import video from '../../images/courses/video.mp4'
+import video from '../../images/courses/video1.mp4'
 
 import free from '../../images/courses/free.png'
 

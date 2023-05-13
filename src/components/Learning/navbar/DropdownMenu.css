@@ -1,3 +1,6 @@
+.navbar-parent{
+  z-index: 100px;
+}
 .dropdown:hover>.dropdown-menu,
 .dropend:hover>.dropdown-menu {
   display: block;

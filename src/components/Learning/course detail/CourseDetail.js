@@ -7,8 +7,10 @@ import { Data } from '../CoursesAPI'
 import { useParams } from "react-router";
 import './CourseDetail.css'
 import { LearningData } from '../WhatYouWillLearn'
+import { Link } from 'react-router-dom'
 
 const CourseDetail = () => {
+  var category;
   let { matchid } = useParams();
   let getdata = Data.filter((item) => {
     if (matchid == item.id) {
@@ -49,6 +51,7 @@ const CourseDetail = () => {
         <div className='detail-child1'>
           {
             getdata.map((item) => {
+              category = item.category;
               return (
                 <div>
                   <h1>{item.name}</h1>
@@ -85,7 +88,12 @@ const CourseDetail = () => {
             })
           }
         </div>
-        <button className='learning-enroll'>Enroll Now</button>
+        {/* <Link to={`/playlist/${category}`} style={{ */}
+        <Link to={`/playlist/${'Form Management'}`} style={{
+          textDecoration: "none"
+        }}>
+          <button className='learning-enroll'>Enroll Now</button>
+        </Link>
       </div>
 
       {/* requirement and description */}
@@ -144,7 +152,12 @@ const CourseDetail = () => {
           </div>
         </div>
         <p>Lorem ipsum dolor sit amet consectetur. Morbi amet enim venenatis facilisis sit et. Volutpat mi semper penatibus tellus nibh commodo mattis bibendum malesuada. In sed sagittis imperdiet lacus. Enim interdum id potenti bibendum lacus nunc elementum duis mauris.</p>
-        <button className='instructor-btn'>Enroll Now</button>
+        {/* <Link to={`/playlist/${category}`} style={{ */}
+        <Link to={`/playlist/${'Form Management'}`} style={{
+          textDecoration: "none"
+        }}>
+          <button className='instructor-btn'>Enroll Now</button>
+        </Link>
       </div>
     </div>
   )
