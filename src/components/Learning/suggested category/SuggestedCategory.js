@@ -7,7 +7,8 @@ const SuggestedCategory = ({ category }) => {
     return (
         <>
             <h1 style={{
-                paddingLeft:"10px"
+                paddingLeft:"30px",
+                paddingTop:"30px"
             }}>Suggested Courses For You</h1>
             <div className='category'>
                 <div className='category-child'>

@@ -1,40 +1,52 @@
-import React from 'react'
-import bg from '../../../images/bg.png'
-import './MainSection.css'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react';
+import MenuIcon from '@mui/icons-material/Menu';
+import bg from '../../../images/bg.png';
+import './MainSection.css';
+import { Link } from 'react-router-dom';
 
 const MainSection = () => {
+    const [isNavOpen, setIsNavOpen] = useState(false);
+
     const styles = {
         backgroundImage: `url(${bg})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
-        height: "327px",
-        color: "#FFFFFF",
-        marginBottom: "50px",
-        marginTop: "50px"
+        color: '#FFFFFF',
+        marginBottom: '50px',
+        marginTop: '50px',
     };
-    return (
-        <div className='main-parent' style={styles}>
-            <h1 style={{
-                padding: "70px 0px 0px 50px"
-            }}>Courses</h1>
-            <ul className='main-navbar' >
-                <li>All COurse</li>
-                <li>Crop Production</li>
-                <li>lifeStock Production</li>
-                <li>Soil Science</li>
-                <li>Agronomy</li>
-                <li>Horticulture</li>
-                <Link to="/FormManagment" style={{
-                    textDecoration: "none",
-                    color: "white"
-                }}>
-                    <li>Form managment</li>
-                </Link>
-                <li>Other</li>
-            </ul>
-        </div>
-    )
-}
 
-export default MainSection
+    const toggleNav = () => {
+        setIsNavOpen(!isNavOpen);
+    };
+
+    return (
+        <>
+            <div style={styles} className='main-parent'>
+                <div className='main-child1'>
+                    <h1>Courses</h1>
+                    <button onClick={toggleNav}><MenuIcon style={{
+                        fontSize: "40px"
+                    }} /></button>
+                </div>
+                <ul className={`main-child2 ${isNavOpen ? 'open' : ''}`}>
+                    <li href='/'>All Course</li>
+                    <li href='/'>Cropt Production</li>
+                    <li href='/'>lifeStock Production</li>
+                    <li href='/'>Soil Science</li>
+                    <li href='/'>Agronomy</li>
+                    <li href='/'>Horticulture</li>
+                    <Link to="/FormManagment" style={{
+                        textDecoration:"none",
+                        color:"#FFFFFF"
+                    }}>
+                        <li href='/'>Form managment</li>
+                    </Link>
+                    <li href='/'>Other</li>
+                </ul>
+            </div>
+        </>
+    );
+};
+
+export default MainSection;

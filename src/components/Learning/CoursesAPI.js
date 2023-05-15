@@ -12,6 +12,9 @@ import general4 from '../../images/courses/general4.png'
 import general5 from '../../images/courses/general5.png'
 import general6 from '../../images/courses/general6.png'
 
+import form from '../../images/courses/form.png'
+
+
 
 export const Data = [
     // Top Trending Course
@@ -209,5 +212,71 @@ export const Data = [
         difficulty: "Beginner",
         price: "₦150.00",
     },
+
+    {
+        id: "form-1",
+        title: "Form Management One:",
+        img: form,
+        category: "Form Management",
+        name: "Food safety",
+        description: "Lorem ipsum dolor sit amet consectetur. Sed posuere lacus massa elit. Libero ultricies sed facilisis eget viverra nam. At vel fermentum sit ",
+        instructor: "Joe Lane",
+        duration: "8 hours . 12 lectures . Beginner",
+        rating: "4.4",
+        difficulty: "Beginner",
+        price: "₦150.00",
+    }, 
+    {
+        id: "form-1",
+        title: "Form Management two:",
+        img: form,
+        category: "Form Management",
+        name: "Food safety",
+        description: "Lorem ipsum dolor sit amet consectetur. Sed posuere lacus massa elit. Libero ultricies sed facilisis eget viverra nam. At vel fermentum sit ",
+        instructor: "Joe Lane",
+        duration: "8 hours . 12 lectures . Beginner",
+        rating: "4.4",
+        difficulty: "Beginner",
+        price: "₦150.00",
+    }, 
+    {
+        id: "form-1",
+        title: "Form Management three:",
+        img: form,
+        category: "Form Management",
+        name: "Food safety",
+        description: "Lorem ipsum dolor sit amet consectetur. Sed posuere lacus massa elit. Libero ultricies sed facilisis eget viverra nam. At vel fermentum sit ",
+        instructor: "Joe Lane",
+        duration: "8 hours . 12 lectures . Beginner",
+        rating: "4.4",
+        difficulty: "Beginner",
+        price: "₦150.00",
+    }, 
+    {
+        id: "form-1",
+        title: "Form Management four:",
+        img: form,
+        category: "Form Management",
+        name: "Food safety",
+        description: "Lorem ipsum dolor sit amet consectetur. Sed posuere lacus massa elit. Libero ultricies sed facilisis eget viverra nam. At vel fermentum sit ",
+        instructor: "Joe Lane",
+        duration: "8 hours . 12 lectures . Beginner",
+        rating: "4.4",
+        difficulty: "Beginner",
+        price: "₦150.00",
+    }, 
+    {
+        id: "form-1",
+        title: "Form Management five:",
+        img: form,
+        category: "Form Management",
+        name: "Food safety",
+        description: "Lorem ipsum dolor sit amet consectetur. Sed posuere lacus massa elit. Libero ultricies sed facilisis eget viverra nam. At vel fermentum sit ",
+        instructor: "Joe Lane",
+        duration: "8 hours . 12 lectures . Beginner",
+        rating: "4.4",
+        difficulty: "Beginner",
+        price: "₦150.00",
+    }, 
 
 ]
