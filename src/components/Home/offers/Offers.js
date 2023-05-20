@@ -18,7 +18,7 @@ const Offers = () => {
                     <img src={arrow} className='offer-img' />
                 </div>
                 <div>
-                    <h4 className='offer-discount'>Get 20% OFF</h4>
+                    <h6 className='offer-discount'>Get 20% OFF</h6>
                 </div>
             </div>
             <div className='offer-parent-child2'>

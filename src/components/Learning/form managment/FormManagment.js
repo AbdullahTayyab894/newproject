@@ -51,7 +51,10 @@ const FormManagment = () => {
             <div style={{
                 marginBottom: "40px"
             }}>
-                <h1 className='general-heading'>Top Trending Farm Management Courses</h1>
+                <h1 className='general-heading' style={{
+                    fontSize:"35px",
+                    fontFamily:"San Serif"
+                }}>Top Trending Farm Management Courses</h1>
                 <Slider {...settings}>
 
                     {

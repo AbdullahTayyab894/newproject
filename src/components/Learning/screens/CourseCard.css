@@ -4,7 +4,7 @@
 }
 
 .general-heading {
-    font-family: 'Lato';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -56,7 +56,7 @@
 }
 
 .general-instructor {
-    font-family: 'Poppins';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -65,7 +65,7 @@
 }
 
 .general-rating {
-    font-family: 'Poppins';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 15px;

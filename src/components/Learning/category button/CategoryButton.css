@@ -37,14 +37,14 @@
         width: 300px;
     }
     .category-parent>div>button {
-        width: 300px;
+        width: 200px;
         margin: auto;
     }
 }
 
 @media (max-width:450px) {
     .category-parent>div>button {
-        width: 250px;
+        width: 200px;
         margin: auto;
     }
 }

@@ -8,11 +8,10 @@ const NewsLetter = () => {
             marginTop:"40px"
         }}>
             <h1 style={{
-                fontFamily: 'Roboto',
+                fontFamily: 'Open Sans',
                 fontStyle: "normal",
                 fontWeight: "500",
-                fontSize: "48px",
-                lineHeight: "56px",
+                fontSize: "35px",
                 color: "#FFFFFF",
                 textAlign: "center"
             }}>Newsletter</h1>
@@ -30,13 +29,13 @@ const NewsLetter = () => {
                 margin:"20px 0px 20px 0px"
             }}>
                 <input placeholder='Enter your email address' style={{
-                    width: "883px",
+                    width: "500px",
                     height: "70px",
                     margin: "auto",
                     background: "#FFFFFF",
                     boxShadow: "0px 4px 4px rgba(255, 255, 255, 0.1)",
                     borderRadius: "10px",
-                    textAlign: "center",
+                    paddingLeft:"20px",
                     fontFamily: 'Open Sans',
                     fontStyle: "normal",
                     fontWeight: "400",
@@ -45,8 +44,8 @@ const NewsLetter = () => {
                 }} />
             </form>
             <button style={{
-                width: "250px",
-                height: "70px",
+                width: "150px",
+                height: "50px",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
@@ -54,10 +53,10 @@ const NewsLetter = () => {
                 background: "#FFFFFF",
                 boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
                 borderRadius: "10px",
-                fontFamily: 'Poppins',
+                fontFamily: 'Open Sans',
                 fontStyle: "normal",
                 fontWeight: "500",
-                fontSize: "20px",
+                fontSize: "18px",
                 lineHeight: "30px",
                 color: "#00541C",
                 border:"none"

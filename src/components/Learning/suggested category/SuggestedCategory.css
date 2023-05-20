@@ -28,7 +28,7 @@
 }
 
 .category-subchild2>h1 {
-    font-family: 'Poppins';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -52,7 +52,7 @@
 }
 
 .category-subchild2>div>h5 {
-    font-family: 'Poppins';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;

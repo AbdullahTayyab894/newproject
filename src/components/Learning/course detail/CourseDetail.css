@@ -23,6 +23,11 @@
     padding: 20px;
 }
 
+.detail-learning>h1{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
 .detail-learning-child {
     display: flex;
     justify-content: space-around;
@@ -44,8 +49,8 @@
 }
 
 .learning-enroll {
-    width: 444px;
-    height: 60px;
+    width: 200px;
+    height: 50px;
     background: #00541C;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -64,17 +69,17 @@
 
 .learning-req>h1,
 .learning-des>h1 {
-    font-family: 'Poppins';
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 35px;
     line-height: 28px;
     color: #000000;
 }
 
 .learning-req>p,
 .learning-des>p {
-    font-family: 'Poppins';
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -88,6 +93,10 @@
     padding-left: 40px;
 }
 
+.price-parent>h1{
+    font-size: 35px;
+}
+
 .price-child {
     display: flex;
     margin-left: 20px;
@@ -99,10 +108,10 @@
 .price-child>h1 {
     border-left: 1px solid gray;
     padding-left: 40px;
-    font-family: 'Poppins';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 25px;
     line-height: 28px;
     color: #000000;
 }
@@ -111,7 +120,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 48px;
+    font-size: 25px;
     line-height: 28px;
     color: #000000;
 }
@@ -124,19 +133,19 @@
 }
 
 .instructor-parent>h1 {
-    font-family: 'Poppins';
+    font-family: sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 28px;
+    font-weight: 500;
+    font-size: 35px;
+    /* line-height: 28px; */
     color: #000000;
 }
 
 .instructor-parent>h6 {
-    font-family: 'Poppins';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 22px;
     line-height: 28px;
     text-decoration-line: underline;
     color: #000000;
@@ -151,7 +160,7 @@
 }
 
 .instructor-child1>h6 {
-    font-family: 'Lato';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -173,7 +182,7 @@
 }
 
 .instructor-child2>div>p {
-    font-family: 'Poppins';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -182,7 +191,7 @@
 }
 
 .instructor-parent>p {
-    font-family: 'Poppins';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -192,8 +201,8 @@
 }
 
 .instructor-btn {
-    width: 210px;
-    height: 60px;
+    width: 150px;
+    height: 50px;
     background: #00541C;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;

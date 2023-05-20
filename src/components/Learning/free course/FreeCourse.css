@@ -4,7 +4,7 @@
 }
 
 .free-heading {
-    font-family: 'Lato';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -32,12 +32,13 @@
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
+    padding-top: 10px;
     line-height: 24px;
     color: #00541C;
 }
 
 .free-description {
-    font-family: 'Lato';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -46,7 +47,7 @@
 }
 
 .free-instructor {
-    font-family: 'Poppins';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -79,7 +80,7 @@
 }
 
 .free-price {
-    font-family: 'Poppins';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -90,13 +91,11 @@
 .free-ispaid {
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
     color: #00541C;
     background: rgba(0, 153, 51, 0.11);
     border-radius: 2px;
-    width: 45px;
+    width: 50px;
     padding: 5px
 }
 
@@ -129,7 +128,7 @@
     }
 
     .free-description {
-        font-family: 'Lato';
+        font-family: sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;

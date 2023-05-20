@@ -19,8 +19,8 @@
 
 .description {
     padding: 20px;
-    font-family: Roboto;
-    font-size: 60px;
+    font-family: sans-serif;
+    font-size: 35px;
     font-weight: 700;
     line-height: 70px;
     letter-spacing: 0em;
@@ -30,8 +30,8 @@
 
 .peragraph {
     padding: 20px;
-    font-family: Roboto;
-    font-size: 32px;
+    font-family: sans-serif;
+    font-size: 20px;
     font-weight: 500;
     line-height: 38px;
     letter-spacing: 0em;
@@ -41,13 +41,14 @@
 
 .parent-div-first-child-subchild {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0px 20px;
 }
 
 .description-btn1 {
-    width: 235px;
-    height: 70px;
+    width: 150px;
+    height: 50px;
     background: #00541C;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -55,8 +56,8 @@
 }
 
 .description-btn2 {
-    width: 235px;
-    height: 70px;
+    width: 150px;
+    height: 50px;
     background: linear-gradient(0deg, rgba(58, 58, 58, 0.15), rgba(58, 58, 58, 0.15)), #FFFFFF;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -84,16 +85,10 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .description-btn1 {
+    .description-btn1,.description-btn2 {
         margin-bottom: 20px;
-        width: 325px;
-        height: 80px;
-    }
-
-    .description-btn2 {
-        margin-bottom: 20px;
-        width: 325px;
-        height: 80px;
+        width: 150px;
+        height: 50px;
     }
 
     .first-img {
@@ -161,18 +156,6 @@
         margin: auto;
         justify-content: space-around;
     }
-
-    .description-btn1 {
-        margin-bottom: 10px;
-        width: 325px;
-        height: 80px;
-    }
-
-    .description-btn2 {
-        margin-bottom: 10px;
-        width: 325px;
-        height: 80px;
-    }
 }
 
 @media (max-width:375px) {
@@ -190,16 +173,6 @@
         font-size: 20px;
         font-weight: 250;
         line-height: 28px;
-    }
-
-    .description-btn1 {
-        width: 270px;
-        height: 70px;
-    }
-
-    .description-btn2 {
-        width: 270px;
-        height: 70px;
     }
 
     .first-img {

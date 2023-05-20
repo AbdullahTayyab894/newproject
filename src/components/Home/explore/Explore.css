@@ -1,17 +1,16 @@
 .explore-parent>h1 {
-    font-family: Roboto;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 35px;
     color: #00541C;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .explore-parent>button {
     display: flex;
-    max-width: 437px;
+    max-width: 230px;
     height: 70px;
     margin: auto;
     background: #00541C;
@@ -21,12 +20,10 @@
     justify-content: center;
     margin-top: 40px;
     color: #FFFFFF;
-    font-family: Open Sans;
+    font-family: sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 27px;
-    padding: 0px 50px 0px 50px;
+    font-size: 18px;
+    padding: 0px 30px 0px 30px;
 }
 
 .explore-parent>div>img:hover {
