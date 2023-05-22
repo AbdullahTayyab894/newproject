@@ -227,7 +227,7 @@ export const Data = [
         price: "₦150.00",
     }, 
     {
-        id: "form-1",
+        id: "form-2",
         title: "Form Management two:",
         img: form,
         category: "Form Management",
@@ -240,7 +240,7 @@ export const Data = [
         price: "₦150.00",
     }, 
     {
-        id: "form-1",
+        id: "form-3",
         title: "Form Management three:",
         img: form,
         category: "Form Management",
@@ -253,7 +253,7 @@ export const Data = [
         price: "₦150.00",
     }, 
     {
-        id: "form-1",
+        id: "form-4",
         title: "Form Management four:",
         img: form,
         category: "Form Management",
@@ -266,7 +266,7 @@ export const Data = [
         price: "₦150.00",
     }, 
     {
-        id: "form-1",
+        id: "form-5",
         title: "Form Management five:",
         img: form,
         category: "Form Management",

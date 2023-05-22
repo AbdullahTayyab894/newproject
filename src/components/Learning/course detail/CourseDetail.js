@@ -17,6 +17,7 @@ const CourseDetail = () => {
       return item;
     }
   });
+  console.log("my data", getdata)
 
   const styles = {
     backgroundImage: `url(${bgdetail})`,

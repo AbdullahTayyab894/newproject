@@ -42,6 +42,7 @@ const TrendingCourse = () => {
     };
     return (
         <div style={{
+            width:"98%",
             marginBottom: "40px"
         }}>
             <h1 className='general-heading' style={{
