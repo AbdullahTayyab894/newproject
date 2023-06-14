@@ -3,41 +3,41 @@ import './DropdownMenu.css'
 export default function Menu() {
     return (
         <div>
-            <li class="nav-item dropdown" style={{
-                padding:"10px"
+            <li className="nav-item dropdown" style={{
+                padding: "10px 10px 10px 10px"
             }}>
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Explore
                 </a>
-                <ul class="dropdown-menu">
-                    <li class="nav-item dropend">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <ul className="dropdown-menu">
+                    <li className="nav-item dropend">
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Price
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Basic</a></li>
-                            <li><a class="dropdown-item" href="#">Classic</a></li>
-                            <li><a class="dropdown-item" href="#">Premium</a></li>
-                            <li><a class="dropdown-item" href="#">Gold</a></li>
+                        <ul className="dropdown-menu" style={{ marginLeft: "50px" }}>
+                            <li><a className="dropdown-item" href="#">Basic</a></li>
+                            <li><a className="dropdown-item" href="#">Classic</a></li>
+                            <li><a className="dropdown-item" href="#">Premium</a></li>
+                            <li><a className="dropdown-item" href="#">Gold</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropend">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li className="nav-item dropend">
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Level
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Bigginer</a></li>
-                            <li><a class="dropdown-item" href="#">Intermediate</a></li>
-                            <li><a class="dropdown-item" href="#">Advanced</a></li>
+                        <ul className="dropdown-menu" style={{ marginLeft: "50px" }}>
+                            <li><a className="dropdown-item" href="#">Bigginer</a></li>
+                            <li><a className="dropdown-item" href="#">Intermediate</a></li>
+                            <li><a className="dropdown-item" href="#">Advanced</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropend">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li className="nav-item dropend">
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Certification
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Certificate</a></li>
-                            <li><a class="dropdown-item" href="#">Non-Certificate</a></li>
+                        <ul className="dropdown-menu" style={{ marginLeft: "50px" }}>
+                            <li><a className="dropdown-item" href="#">Certificate</a></li>
+                            <li><a className="dropdown-item" href="#">Non-Certificate</a></li>
                         </ul>
                     </li>
                 </ul>

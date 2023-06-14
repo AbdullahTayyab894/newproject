@@ -2,6 +2,7 @@ import React from 'react'
 import { Data } from '../CoursesAPI'
 import CourseSlider from '../screens/CourseSlider';
 import Slider from "react-slick";
+import './TrendingCourse.css'
 
 const TrendingCourse = () => {
     var settings = {
@@ -41,14 +42,8 @@ const TrendingCourse = () => {
         ],
     };
     return (
-        <div style={{
-            width:"98%",
-            marginBottom: "40px"
-        }}>
-            <h1 className='general-heading' style={{
-                fontSize:"35px",
-                fontFamily:"san serif"
-            }}>Top Trending Farm Management Courses</h1>
+        <div className='trending-course-parent'>
+            <h1 className='trending-heading'>Top Trending Farm Management Courses</h1>
             <Slider {...settings}>
 
                 {

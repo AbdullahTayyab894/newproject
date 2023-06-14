@@ -1,0 +1,19 @@
+.trending-course-parent {
+    margin-bottom: 40px;
+    width:96%;
+    margin:auto
+}
+
+.trending-heading {
+    padding: 30px 0px 0px 30px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #00541C;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+@media (max-width:428px) {
+    .trending-heading {
+        font-size: 20px;
+    }
+}

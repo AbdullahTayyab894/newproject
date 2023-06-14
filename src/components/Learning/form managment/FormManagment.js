@@ -5,6 +5,7 @@ import CourseSlider from '../screens/CourseSlider'
 import CourseCard from '../screens/CourseCard'
 import { Data } from '../CoursesAPI'
 import Slider from "react-slick";
+import './FormManagment.css'
 
 
 const FormManagment = () => {
@@ -45,14 +46,12 @@ const FormManagment = () => {
         ],
     };
     return (
-        <div>
+        <div className='form-managment-parent'>
             <MainSection />
             <CategoryButton />
-            <div style={{
-                marginBottom: "40px"
-            }}>
-                <h1 className='general-heading' style={{
-                    fontSize:"35px",
+            <div className='form-managment-child1'>
+                <h1 className='trending-heading' style={{
+                    fontSize:"25px",
                     fontFamily:"San Serif"
                 }}>Top Trending Farm Management Courses</h1>
                 <Slider {...settings}>
@@ -67,11 +66,7 @@ const FormManagment = () => {
                     }
                 </Slider>
             </div>
-            <div style={{
-                display: "flex",
-                flexWrap: "wrap",
-                justifyContent: "space-evenly",
-            }}>
+            <div className='form-managment-child2'>
                 {
                     Data.map((item) => {
                         if (item.category === "Form Management")

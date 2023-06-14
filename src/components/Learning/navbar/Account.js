@@ -3,7 +3,7 @@ import './DropdownMenu.css'
 
 const Account = () => {
     return (
-        <div style={{
+        <div className='account-menu' style={{
             marginLeft:"50px"
         }}>
             <li class="nav-item dropdown">
@@ -13,7 +13,7 @@ const Account = () => {
                         color:"green"
                     }}></i>
                 </a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu ">
                     <li>
                         <li><a class="dropdown-item" href="#">Profile</a></li>
                         <li><a class="dropdown-item" href="#">My Courses</a></li>

@@ -30,6 +30,11 @@
   width: 700px;
 }
 
+.routes{
+  width: 300px;
+  display: flex;
+}
+
 @media (max-width:500px) {
   .navbar-parent {
     margin-top: 60px;
@@ -42,8 +47,10 @@
   }
 
   .routes {
-    width: 250px;
-    margin: 10px 10px;
+    padding-bottom: 20px;
+  }
+
+  .account-menu{
   }
 }
 

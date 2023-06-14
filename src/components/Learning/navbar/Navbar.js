@@ -16,10 +16,7 @@ const Navbar = () => {
           <button className="btn btn-outline-success" type="submit">Search</button>
         </form>
       </div>
-      <div className='routes' style={{
-        width: "300px",
-        display: "flex",
-      }}>
+      <div className='routes'>
         <Menu />
         <Account/>
       </div>
